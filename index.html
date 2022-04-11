@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--MENU-->
+    <div class="navbar-fixed">
+        <nav class="purple darken-3">
+            <div class="nav-wrapper container">
+                <a id="logo" href="#" class="brand-logo">MoreBooks</a>
+                <a href="#" data-target="menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#titulibros">Libros</a></li>
+                    <li><a href="#quienes">Quienes somos?</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav purple lighten-3" id="menu">
+        <li><a id="a" href="#">Inicio</a></li>
+        <li><a id="a" href="#titulibros">Libros</a></li>
+        <li><a id="a" href="#quienes">Quienes somos?</a></li>
+    </ul>
+    <!---------------MAIN------------>
+    
+        <div class="fondo"><Main>
+            <!---------------INICIO------------>
+            <div class="Inicio">
+                <div class="row">
+                    <div class="col s12">
+                        <div id="dinicio">
+                            <h1 id="inicio"> Lee la colección de los mejores libros online en la plataforma literaria.
+                                Miles de libros para leer aca en MoreBooks.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------LIBROS------------>
+            <div class="container">
+                <div id="libros" class="row">
+                    <div class="col s12">
+                        <h1 id="titulibros">Libros</h1>
+                        <div class="carousel carousel-slider">
+                            <a href="" class="carousel-item">
+                                <img id="imgb" src="img/libro1.jpg" alt="">
+                            </a>
+                            <a href="" class="carousel-item">
+                                <img id="imgb" src="img/libro2.jpg" alt="">
+                            </a>
+                            <a href="" class="carousel-item">
+                                <img id="imgb" src="img/libro3.jpg" alt="">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!---------------QUIENES SOMOS------------>
+                <div class="quienes">
+                    <div class="row">
+                        <div class="col s12">
+                            <div id="dinicio">
+                                <h1 id="quienes">Quienes somos?</h1>
+                                <h4 id="quienestext"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, explicabo a laborum odit aspernatur impedit repudiandae architecto. Autem dignissimos quam fugiat error iste nesciunt repellendus, possimus molestiae quod nostrum dolor.
+                                </h4>
+                                <img id="imq" src="img/libreria.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </Main>   
+    </div>
+
+    <footer class="pink darken-4 page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2022 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
+
+</body>
+
+</html>
